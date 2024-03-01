@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin | Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="display">
+            <p id="display-top">0</p>
+        </div>
+        <div id="keypad">
+            <div id="left-container">
+                <div id="extra">
+                    <button type="button" id="clear">C</button>
+                    <button type="button" id="sign">&plus;/&minus;</button>
+                    <button type="button" id="percentage">%</button>
+                </div>
+                <div id="numbers">
+                    <button type="button" id="num7" class="button-num">7</button>
+                    <button type="button" id="num8" class="button-num">8</button>
+                    <button type="button" id="num9" class="button-num">9</button>
+                    <button type="button" id="num4" class="button-num">4</button>
+                    <button type="button" id="num5" class="button-num">5</button>
+                    <button type="button" id="num6" class="button-num">6</button>
+                    <button type="button" id="num1" class="button-num">1</button>
+                    <button type="button" id="num2" class="button-num">2</button>
+                    <button type="button" id="num3" class="button-num">3</button>
+                    <button type="button" id="num00" class="button-num">00</button>
+                    <button type="button" id="num0" class="button-num">0</button>
+                    <button type="button" id="floating-point" class="button-num">.</button>
+                </div>
+            </div>
+            <div id="right-container">
+                <div id="operators">
+                    <button type="button" id="divide" class="button-op">&divide;</button>
+                    <button type="button" id="multiply" class="button-op">&times;</button>
+                    <button type="button" id="subtract" class="button-op">&minus;</button>
+                    <button type="button" id="add" class="button-op">&plus;</button>
+                    <button type="button" id="equal" class="button-op">&equals;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
