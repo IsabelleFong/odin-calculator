@@ -42,7 +42,17 @@ function displayTop(num, numbers) {
         value = num;
     }
     else if (typeof Number(numbers) === 'number' && numbers.length < 13) {
-        value = numbers + num;
+        if (num === '.') {
+            if (numbers.includes('.')) {
+                return numbers;
+            }
+            else {
+                value = numbers + num;
+            }
+        }
+        else {
+            value = numbers + num;
+        }
     }
     document.getElementById('display-top').innerText = value;
     return value;
