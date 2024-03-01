@@ -10,4 +10,4 @@ This project is a part of The Odin Project Foundations Course (JavaScript Basics
  * Include a display for the calculator
  * Ensure the calculator evaluates only one pair of numbers at a time
  * Preven answers with long decimals from screen overflow
- * Provide support decimal input with a "." button
+ * Provide support decimal input with a "." button, preventing multiple decimal points
